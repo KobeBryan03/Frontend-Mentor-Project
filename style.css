@@ -139,6 +139,12 @@ html {
         display: flex;
         flex-direction: column;
     }
+    .sedans {
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury {
+        border-radius: 0 0 10px 10px;
+    }
 }
 @media (max-width: 600px) {
     .grid-container {
